@@ -23,6 +23,7 @@ body{
     color: white;
     top: 0px;
     
+    
 }
 #navbar::before{
     content: "";
@@ -77,22 +78,27 @@ a{
     color: white;
     text-align: center;
     font-size: 3rem;
+    
 }
 
 #home::before{
-    height: 480px; 
+    height: 480px;
+     
 }
 
 #home p{
     font-size: 1.5rem;
+    
 }
 /* Services Section */
 #services-container{
+    
     color: white;
     font-size: 1.5rem;
     text-align: center;
 }
 #services{
+    
     margin: 34px;
     display: flex;
 }
@@ -117,6 +123,7 @@ a{
 } 
 /* Contact Section */
 #contact{
+    overflow: hidden;
     position: relative;
     background-color: rgb(241, 235, 235);
     justify-content: center;
