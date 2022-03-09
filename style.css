@@ -1,0 +1,187 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root {
+  --navbar-height: 59px;
+}
+body {
+  background: url(./BACKGROUND\ 1.jpg) no-repeat center center/cover;
+}
+/* Navbar section */
+#navbar {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  color: white;
+  top: 0px;
+}
+#navbar::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+}
+#logo {
+  margin: 10px 34px;
+  height: 50px;
+  width: 450px;
+}
+
+#navbar ul {
+  display: flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#navbar ul li {
+  list-style: none;
+  font-size: 1.3rem;
+}
+#navbar ul li a {
+  color: white;
+  display: block;
+  padding: 0px 0px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+#navbar ul li a:hover {
+  background-color: white;
+  color: black;
+}
+.item {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0px 49px;
+}
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+/* Home section */
+#home {
+  height: 370px;
+  padding: 146px 255px;
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+
+#home::before {
+  height: 480px;
+}
+
+#home p {
+  font-size: 1.5rem;
+}
+/* Services Section */
+#services-container {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+#services {
+  margin: 34px;
+  display: flex;
+}
+#services .box {
+  border: 2px solid rgb(250, 247, 247);
+  padding: 0px;
+  margin: 0px 5px;
+  border-radius: 28px;
+  background: #0f0f0f;
+  margin-bottom: 20px;
+}
+
+#services .box img {
+  height: 160px;
+  margin: auto;
+  display: block;
+}
+
+#services .box p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/* Contact Section */
+#contact {
+  overflow: hidden;
+  position: relative;
+  background-color: rgb(241, 235, 235);
+  justify-content: center;
+  text-align: center;
+}
+h1 {
+  font-size: 2.5rem;
+}
+#contact::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.7;
+}
+#contact-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 34px;
+}
+#contact-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 9px;
+  font-size: 1.1rem;
+}
+
+#contact-box form {
+  width: 40%;
+}
+
+#contact-box label {
+  font-size: 1.3rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.btn {
+  margin: 10px;
+  padding: 15px;
+  font-size: 16px;
+  background: white;
+  color: black;
+  border-radius: 15px;
+}
+.btn:hover {
+  background: violet;
+}
+#address {
+  margin: 10px;
+  padding: 50px;
+  text-align: left;
+  font-size: 1.5rem;
+  color: white;
+}
+footer {
+  background: black;
+  color: white;
+  padding: 9px 20px;
+}
+.center {
+  text-align: center;
+}
