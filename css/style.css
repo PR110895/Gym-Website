@@ -13,7 +13,7 @@ html {
   --navbar-height: 59px;
 }
 body {
-  background: url(./BACKGROUND\ 1.jpg) no-repeat center center/cover;
+  background: url(../img/BACKGROUND\ 1.jpg) no-repeat center center/cover;
 }
 /* Navbar section */
 #navbar {
